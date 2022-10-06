@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "trebuchet MS", Helvetica, sans-serif;
+    background: #fff url(./imagens/fundo.png) repeat-x top;
+}
+
+#container {
+    width: 750px;
+    margin: 0 auto;
+}
+
+#cabecalho {
+    height: 150px;
+    padding-top: 25px;
+    background: url(./imagens/detalhe-topo.png) no-repeat right top;
+}
+
+.logo {
+    width: 152px;
+    height: 66px;
+    background: url(./imagens/logo.png)
+no-repeat center;
+text-indent: -3000px; /* ?Usado para esconder o H1 de Logo "Noticias Cidade", este texto aparecerá se o CSS não for carregado. */
+}

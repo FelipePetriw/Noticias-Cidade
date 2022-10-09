@@ -89,15 +89,8 @@ body.fotos #navegacao a#fotos {
     background: yellow;
 }
 
-#tres-colunas #primario {
+#primario {
     width: 270px;
-    float: left;
-    margin: 0 0 20px 195px;
-    background: blue;
-}
-
-#duas-colunas #primario {
-    width: 555px;
     float: left;
     margin: 0 0 20px 195px;
     background: blue;
@@ -105,9 +98,11 @@ body.fotos #navegacao a#fotos {
 
 #uma-coluna #primario {
     width: 750px;
-    float: left;
     margin: 0 0 20px 0px;
-    background: blue;
+}
+
+#duas-colunas #primario {
+    width: 555px;
 }
 
 #secundario {
@@ -116,7 +111,6 @@ body.fotos #navegacao a#fotos {
     margin: 0 0 20px 15px;
     background: green;
 }
-
 
 /* CONFIGURAÇÕES DO RODAPÉ */
 
